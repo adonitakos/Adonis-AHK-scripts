@@ -52,7 +52,3 @@ Return
 #o::		; <-- Win + O
 Run, C:\Users\adoni\OneDrive
 Return
-
-^#o::		; <-- CTRL + Win + O
-Run, C:\Users\adoni\OneDrive - St.John's University
-Return
