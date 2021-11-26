@@ -13,7 +13,7 @@ Feel free to check them out if you want.
 
 ## How To Run
 1. Download and install AutHotkey --> https://www.autohotkey.com/ (I recommend *Downlaod Current Version**)
-  - You can also install it via the Windows Package Manager, winget; it's present in Windows 11 and for Windows 10 you might have it with the most up to date version, but you        might have refer to this https://github.com/microsoft/winget-cli). However, winget isn't perfect right now, so the official website might be a better option.
+  @- You can also install it via the Windows Package Manager, winget; it's present in Windows 11 and for Windows 10 you might have it with the most up to date version, but you        might have refer to this https://github.com/microsoft/winget-cli). However, winget isn't perfect right now, so the official website might be a better option.
 
 2. Download the AHK script from this repository in one of two ways
    - Simplest way for most of you is to click the green **Code** button, and then **Download ZIP**
