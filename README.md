@@ -1,6 +1,6 @@
 # Adonis-AHK-scripts
 ## About
-These are my personal AutoHotkey macro scripts that I use on a daily basis to speed up my computing a bit.
+These are my personal AutoHotkey macro scripts that I use on a daily basis to speed up my computing a bit. Although these are for personal use, I figured I make this repository public.
 
 FULL DISCLOSURE: A decent chunk of these scripts were sections borrowed from Taran VH.  
 Here is the exact GitHub directory where you can find those scripts: https://github.com/TaranVH/2nd-keyboard/blob/master/Almost_All_Windows_Functions.ahk. <br>
