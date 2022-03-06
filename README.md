@@ -20,6 +20,6 @@ Feel free to check them out if you want.
 
 3. Move the AHK script (you can delete the README file and ZIP/repo folder) to a directory of your choosing. Double click it to run and you will see an **H** icon appear on the      left of your taskbar. 
 
-4. Create a Shortcut of the .AHK file and place it in your Startup folder so it will run whenever you boot your system. Just press <kbd>Win</kbd> + <kbd>R</kbd>, then type `shell:startup`and it will bring you to that directory.
+4. Create a Shortcut of the .AHK file and place it in your Startup folder so it will run whenever you boot your system. Just press <kbd>Win</kbd> + <kbd>R</kbd>, then type `shell:startup` and it will bring you to that directory.
 
 5. Open up a text editor of your choosing (Notepad, Notepad++, Visual Studio Code, Atom, Sublime, etc.) to view the script and make any desired modifications.
