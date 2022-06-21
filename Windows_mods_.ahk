@@ -1,5 +1,5 @@
 ;; Adoni's AHK Windows Mods that make his PC use a bit easier
-;; Some scripts are borrowed from The Macro King, TaranVH --> https://github.com/TaranVH/2nd-keyboard/blob/master/Almost_All_Windows_Functions.ahk
+;; Some scripts are borrowed from 'The Macro King', TaranVH --> https://github.com/TaranVH/2nd-keyboard/blob/master/Almost_All_Windows_Functions.ahk
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -11,7 +11,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #IfWinActive
 
 ;This holds the "BACK" script (in Google Chrome and Mozilla Firefox tabs);
-F15:: 									; <----------------- Bound to G3 macro key on Corsair K95 Platinum keyboard
+F15:: 									
 if WinActive("ahk_class MozillaWindowClass")
 	Send ^+{tab} ; CTRL SHIFT TAB is the shortcut for "go to previous tab"
 if WinActive("ahk_class Chrome_WidgetWin_1")
@@ -21,7 +21,7 @@ if WinActive("ahk_exe explorer.exe")
 Return
 
 
-F13::		  ; <--------------- Bound to G1 macro key on Corsair K95 Platinum keyboard
+F13::		  
 IfWinNotExist, ahk_exe chrome.exe
 	Run, chrome.exe
 if WinActive("ahk_exe chrome.exe")
@@ -31,7 +31,7 @@ else
 Return
 
 
-F14::		  ; <---------------- Bound to G2 macro key on Corsair K95 Platinum keyboard
+F14::		 
 IfWinNotExist, ahk_exe firefox.exe
 	Run, firefox.exe
 if WinActive("ahk_exe firefox.exe")
@@ -52,7 +52,7 @@ Return
 Run, C:\Users\adoni\OneDrive
 Return
 
-#IfWinActive, ahk_exe powershell.exe
+#IfWinActive, ahk_exe powershell.exe		;; <--- anything below this line will only work in PowerShell
 F16::
 Send, {Home} 	;; jump to the beginning of the line (no matter where you are)
 SendRaw, get-help 	;; type in get-help
@@ -60,4 +60,3 @@ Send, {Space} 	;; add the necessary space
 Send, {End}	;; jump back to the end 
 Send, {Space} ;; add a necessary space
 Return
-
