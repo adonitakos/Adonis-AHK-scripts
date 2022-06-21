@@ -40,7 +40,6 @@ else
 	WinActivate ahk_exe firefox.exe
 Return
 
-
 ; --- Empties the Recycle Bin !!! --- ;
 #DELETE::
 FileRecycleEmpty
@@ -52,3 +51,13 @@ Return
 #o::		; <-- Win + O
 Run, C:\Users\adoni\OneDrive
 Return
+
+#IfWinActive, ahk_exe powershell.exe
+F16::
+Send, {Home} 	;; jump to the beginning of the line (no matter where you are)
+SendRaw, get-help 	;; type in get-help
+Send, {Space} 	;; add the necessary space
+Send, {End}	;; jump back to the end 
+Send, {Space} ;; add a necessary space
+Return
+
