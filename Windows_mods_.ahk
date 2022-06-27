@@ -53,7 +53,7 @@ Run, C:\Users\adoni\OneDrive
 Return
 
 #IfWinActive, ahk_exe powershell.exe		;; <--- anything below this line will only work in PowerShell
-F16::
+^!H::
 Send, {Home} 	;; jump to the beginning of the line (no matter where you are)
 SendRaw, get-help 	;; type in get-help
 Send, {Space} 	;; add the necessary space
