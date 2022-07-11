@@ -40,7 +40,6 @@ else
 	WinActivate ahk_exe firefox.exe
 Return
 
-;; Scripts below this line are my own
 
 ; --- Empties the Recycle Bin !!! --- ;
 #DELETE::
@@ -60,5 +59,5 @@ Send, {Home} 	;; jump to the beginning of the line (no matter where you are)
 SendRaw, get-help 	;; type in get-help
 Send, {Space} 	;; add the necessary space
 Send, {End}	;; jump back to the end 
-Send, {Space} ;; add a necessary space
+Send, {Space} ;; add a space
 Return
