@@ -1,5 +1,6 @@
 ;; Adoni's AHK Windows Mods that make his PC use a bit easier
-;; Some scripts are borrowed from 'The Macro King', TaranVH --> https://github.com/TaranVH/2nd-keyboard/blob/master/Almost_All_Windows_Functions.ahk
+;; Lines 14-41 are borrowed from TaranVH --> https://github.com/TaranVH/2nd-keyboard/blob/master/Almost_All_Windows_Functions.ahk
+;; Code below line 41 are my own!
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -10,10 +11,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #IfWinActive
 
-;This holds the "BACK" script (in Google Chrome and Mozilla Firefox tabs);
 F15:: 									
 if WinActive("ahk_class MozillaWindowClass")
-	Send ^+{tab} ; CTRL SHIFT TAB is the shortcut for "go to previous tab"
+	Send ^+{tab} 
 if WinActive("ahk_class Chrome_WidgetWin_1")
 	Send ^+{tab}
 if WinActive("ahk_exe explorer.exe")
@@ -39,6 +39,8 @@ if WinActive("ahk_exe firefox.exe")
 else
 	WinActivate ahk_exe firefox.exe
 Return
+
+;; Scripts below this line are my own
 
 ; --- Empties the Recycle Bin !!! --- ;
 #DELETE::
