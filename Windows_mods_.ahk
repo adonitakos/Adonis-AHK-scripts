@@ -48,7 +48,7 @@ FileRecycleEmpty
 Return
 
 ;; --- Launches OneDrive directories -- ;;
-;; Should honestly just be a native feature of Windows 10/11
+;; This should honestly just be a native keyboars shortcut of Windows 10/11
 
 #o::		; <-- Win + O
 Run, C:\Users\adoni\OneDrive
