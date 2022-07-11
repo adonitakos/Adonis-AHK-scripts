@@ -12,7 +12,7 @@ The rest are very basic, but pretty functional (in my opinion) scripts that I my
 Feel free to check them out if you want.
 
 ## How To Run
-1. Download and install AutoHotkey --> https://www.autohotkey.com/ (I recommend *Downlaod Current Version*)
+1. Download and install AutoHotkey --> https://www.autohotkey.com/ (I recommend *Download Current Version*)
 
 2. Download the AHK script from this repository in one of two ways
    - Simplest way for most of you is to click the green **Code** button, and then **Download ZIP**
