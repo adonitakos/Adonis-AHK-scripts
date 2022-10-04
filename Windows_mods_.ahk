@@ -47,13 +47,14 @@ FileRecycleEmpty
 Return
 
 ;; --- Launches OneDrive directories -- ;;
-;; This should honestly just be a native keyboars shortcut of Windows 10/11
+;; This should honestly just be a native keyboard shortcut of Windows 10/11
 
 #o::		; <-- Win + O
 Run, C:\Users\adoni\OneDrive
 Return
 
 #IfWinActive, ahk_exe powershell.exe		;; <--- anything below this line will only work in PowerShell
+;; --- Sends get-help in front of a PowerShell command --- ;;
 ^!H::
 Send, {Home} 	;; jump to the beginning of the line (no matter where you are)
 SendRaw, get-help 	;; type in get-help
