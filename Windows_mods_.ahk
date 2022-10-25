@@ -53,6 +53,18 @@ Return
 Run, C:\Users\adoni\OneDrive
 Return
 
+;; --- End of curly bracket comment --- ;;
+;; * This is used to indicate what a closing curly bracket closes off
+^!/::
+Send, {Space}
+SendRaw, // <--- ends here
+Loop, 10
+{
+	Send, {Left}
+}
+Send, {Space}
+Return
+
 #IfWinActive, ahk_exe powershell.exe		;; <--- anything below this line will only work in PowerShell
 ;; --- Sends get-help in front of a PowerShell command --- ;;
 ^!H::
